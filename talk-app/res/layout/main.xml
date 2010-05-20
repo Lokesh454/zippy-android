@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  <LinearLayout android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:orientation="vertical"
+                android:padding="4px">
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Fast button..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Do-nothing button"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="600 ms ..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Janky Button"
+   android:id="@+id/janky_button"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Do a 6 sec op on the main thread..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="ANR button 1"
+   android:id="@+id/anr1"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="AsyncTask + animation..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Slow op w/ AsyncTask"
+   android:id="@+id/asynctask"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="A smooth list view..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Smooth List View"
+   android:id="@+id/start_smoothlistview_button"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="A slow, unresponsive list view..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Janky List View"
+   android:id="@+id/start_jankylistview_button"
+    />
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Showing mutex contention logging..."
+    />
+<Button
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Lock Fight!"
+   android:id="@+id/start_lock_fight_button"
+    />
+
+
+</LinearLayout>
+</ScrollView>
+
